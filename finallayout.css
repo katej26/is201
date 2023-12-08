@@ -1,0 +1,72 @@
+/* Katelyn Johnson
+Prof Possey 
+FIN 201
+12/6/23*/
+
+body {
+    background-color: rgb(238, 230, 164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    /* background-color: rgb(255, 120, 120);  */
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+}
+.header {
+    font-size: large;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.leftmenu {
+    font-family: monospace;
+    color: darkmagenta;
+    font-size: 45px;
+    top: 80px;
+    left: 45px;
+    width: 350px;
+    bottom: 300px;
+    z-index: 1;
+
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.mainbody {
+    font-family: cursive;
+    color: rgb(5, 116, 251);
+    top: 114px;
+    width: 410px;
+    right: 5px;
+    bottom: 300px;
+    padding-right: 5px;
+}
+.rightmenu {
+    font-family: fantasy;
+    color: rgb(205, 127, 140);
+    top: 400px;
+    right: 5px;
+    width: 350px;
+    bottom: 5px;
+    border-left: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    width: 410px;
+    top: 400px;
+    font-size:  8px;
+    color: #55555;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+.subheader {
+    float: right;
+}
