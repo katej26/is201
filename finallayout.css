@@ -57,10 +57,9 @@ body {
     width: 410px;
     top: 400px;
     font-size:  8px;
-    color: #55555;
+    color: gray;
     text-align: center;
     padding-top: 15px;
-    position: fixed;
 }
 .subheader {
     float: right;
